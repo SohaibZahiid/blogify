@@ -11,7 +11,7 @@
         <link href="css/style.css" rel="stylesheet" />
         <style>
             .banner-background {
-                clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+                clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 95%, 72% 84%, 46% 94%, 22% 84%, 0 95%, 0% 35%, 0 0);
 
             }
         </style>
@@ -21,7 +21,7 @@
         <%@ include file="components/navbar.jsp" %>
 
         <!-- banner -->
-        <div class="container-fluid primary-background banner-background">
+        <div class="container-fluid primary-background banner-background" style="min-height: 40vh;">
             <div class="p-5">
                 <h3 class="display-3">Welcome to Blogify</h3>
                 <p>Programming languages are described in terms of their syntax (form) and semantics (meaning), usually defined by a formal language. Languages usually provide features such as a type system, variables, and mechanisms for error handling. An implementation of a programming language is required in order to execute programs, namely an interpreter or a compiler. An interpreter directly executes the source code, while a compiler produces an executable program.</p>

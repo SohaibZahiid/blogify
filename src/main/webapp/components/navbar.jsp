@@ -24,8 +24,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.jsp">Login</a>
+                </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex mb-0" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-light" type="submit">Search</button>
             </form>

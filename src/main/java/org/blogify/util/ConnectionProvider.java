@@ -15,7 +15,7 @@ public class ConnectionProvider {
         try {
             if(con == null) {
                 // load mysql driver
-                Class.forName("com.mysql.jdbc.Driver");
+                Class.forName("com.mysql.cj.jdbc.Driver");
                 // create connection
                 con = DriverManager.getConnection(URL, USER, PASSWORD);
             }

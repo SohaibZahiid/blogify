@@ -18,28 +18,26 @@
         <section style="min-height: 80vh;" class="d-flex justify-content-center align-items-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 offset-md-4">
+                    <div class="col-md-6 offset-md-3">
                         <div class="card">
-                            <div class="card-header primary-background">
-
-                                <h4><i class="fa fa-user"></i> Login</h4>
+                            <div class="card-header py-4 primary-background">
+                                <h4 class="mb-0"><i class="fa fa-user"></i> Login</h4>
                             </div>
                             <div class="card-body">
-                                <form>
+                                <form method="POST" action="LoginServlet">
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleInputPassword1" class="form-label">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                        <input type="password" class="form-control" name="password" id="exampleInputPassword1">
                                     </div>
-                                    <div class="mb-3 form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    <div class="mb-3">
+                                        <div class="form-text">Don't have an account? <a href="register.jsp">Register here</a></div>
                                     </div>
-                                    <button type="submit" class="btn custom-button">Submit</button>
+
+                                    <button type="submit" class="btn custom-button">Login</button>
                                 </form>
                             </div>
                         </div>
